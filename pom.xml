@@ -16,6 +16,7 @@
         <logback.version>1.0.13</logback.version>
         <slf4j.version>1.7.7</slf4j.version>
         <spring.version>4.2.1.RELEASE</spring.version>
+        <apache.commons.lang3.version>3.5</apache.commons.lang3.version>
     </properties>
 
     <developers>
@@ -139,6 +140,12 @@
             <artifactId>servlet-api</artifactId>
             <version>2.5</version>
             <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${apache.commons.lang3.version}</version>
         </dependency>
 
     </dependencies>
