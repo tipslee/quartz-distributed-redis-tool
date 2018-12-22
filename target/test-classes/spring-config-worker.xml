@@ -10,13 +10,10 @@
 
     <bean id="syncInfoQuartz" class="com.tipslee.distributed.quartz.SyncInfoQuartz"/>
     <task:scheduled-tasks>
-        <task:scheduled ref="syncInfoQuartz" method="doWork" cron="11 0/10 * * * ?"/>
+        <task:scheduled ref="syncInfoQuartz" method="doWork" cron="0/2 * * * * ?"/>
     </task:scheduled-tasks>
 
     <bean id="syncInfoQuartz2" class="com.tipslee.distributed.quartz.SyncInfoQuartz2"/>
-    <task:scheduled-tasks>
-        <task:scheduled ref="syncInfoQuartz2" method="doWork" cron="11 0/5 * * * ?"/>
-    </task:scheduled-tasks>
 
 </beans>
 

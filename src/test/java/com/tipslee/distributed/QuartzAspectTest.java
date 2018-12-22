@@ -8,10 +8,10 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 /**
  * @author liqiang
  * @description
- * @time 2018年12月21日
+ * @time 2018年12月22日
  * @modifytime
  */
-public class QuartzTest {
+public class QuartzAspectTest {
 
     @Test
     public void quartzRun() {
@@ -19,6 +19,4 @@ public class QuartzTest {
         ISingleRunnableWorker worker = (ISingleRunnableWorker) appContext.getBean("syncInfoQuartz");
         worker.doWork();
     }
-
-
 }

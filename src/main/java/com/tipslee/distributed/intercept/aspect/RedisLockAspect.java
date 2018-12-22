@@ -1,4 +1,4 @@
-package com.tipslee.distributed.intercept.redis;
+package com.tipslee.distributed.intercept.aspect;
 
 import com.tipslee.distributed.intercept.AbstractLockAspect;
 import com.tipslee.distributed.intercept.IdGenerator;
