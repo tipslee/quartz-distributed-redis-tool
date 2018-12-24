@@ -6,6 +6,7 @@
 *.class
 */target
 */target/*
+target/*
 */bin
 */bin/*
 *.jar
